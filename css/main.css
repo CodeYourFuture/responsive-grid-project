@@ -1,3 +1,515 @@
 /* Add your custom CSS here */
 
+@import "font.css"; /* Using a string */
+
 /* Dont' forget to link this file to your HTML in the <head> */
+
+  .skill{
+    display: flex;
+    flex-direction: row;
+  }
+
+ /*HamBurger Menu*/
+.hamburger_menu_box {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  z-index: 100;
+}
+.line {
+  width: 40px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: rgb(60, 15, 223);
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  right: 5px;
+}
+
+.line::before{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: rgb(60, 15, 223);
+  transition: all 0.5s ease-in-out;  
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: rgb(60, 15, 223);
+  transition: all 0.5s ease-in-out;
+  right: 5px;
+}
+
+
+.line::before {
+  transform: translateY(-10px);
+}
+.line::after {
+  transform: translateY(10px);
+}
+
+/* Apply Cross when clicked */
+.hamburger_menu_box.open .line {
+  background: transparent;
+}
+
+.hamburger_menu_box.open .line::before {
+  transform: rotate(45deg);
+  width: 35px;
+  background-color: #000;
+}
+.hamburger_menu_box.open .line::after {
+  transform: rotate(-45deg);
+  width: 35px;
+  background-color: #000;
+}
+
+
+.mobile_nav {
+ 
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  top: 0;
+  height:0%;
+  transition: all 0.3s ease-out;
+  text-align: center;
+ width: 100%;
+ overflow: hidden;
+ background-color: #af9178;
+}
+
+.mobile_nav.openNav {
+ height: 100vh;
+   /* width: 100%; */
+background-color: #f4ece6;
+  
+}
+
+/* .mobile_nav.openNav li{
+    display: block; 
+} */
+
+.mobile_nav_links li {
+    padding-top: 40px;
+    list-style: none;
+    transition: all 0.8s ease-in-out;
+  /* display: none; */
+   
+   
+}
+
+.mobile_nav_links li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+  
+}
+.links:hover{
+  color: blue;  
+}
+
+.links:active {
+    color: blue;
+}
+.mobile_nav_links{
+    margin-top: 150px;
+}
+
+
+  .small-bg{
+    background: transparent;  
+   
+    /* margin-top: 15px; */
+  }
+
+ 
+.card-right-color{
+    background-color: #f4ece6;
+    box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.75);
+}
+
+.nav-custom-color{
+    background-color: #fff;
+}
+
+.art-name{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.skill{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+
+
+.btn-about{
+padding: 7px;
+background-color: blue;
+color: white;
+border-radius: 15px;
+width: 30%;
+border: 0px;
+outline: none;
+font-size: 0.7rem;
+font-weight: bold;
+
+}
+
+.btn-project{
+border-radius: 15px;
+padding: 7px;
+border: 1px solid #000;
+width: 30%;
+color: #000;
+background-color: white;
+font-size: 0.7rem;
+font-weight: bold;
+
+}
+.maya-name{
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.brd{
+   border: 1px solid blue;
+   width: 25%;
+   margin: auto;
+
+  
+  
+
+}
+
+
+.hello{
+    font-size: 4rem;
+     font-weight: bold;
+}
+
+.icons_size{
+    font-size: 1.5rem;
+}
+.footer-icons{
+    font-size: 1.5rem;
+}
+
+.who_i_im{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+
+/* Contact Page Styles */
+
+.lets-talk{
+font-weight: bold;
+font-size: 2.5rem;
+}
+
+.input-txt{
+    padding:10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+   border-bottom: 2px solid dimgray;
+}
+
+.form-names{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: dimgray;
+}
+
+.input-txt2{
+     border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 2px solid dimgray;
+}
+
+.form_btn{
+padding: 7px;
+background-color: blue;
+color: white;
+border-radius: 15px;
+width: 40%;
+border: 0px;
+outline: none;
+font-size: 1rem;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.5s ease-in-out; 
+border: 1px solid transparent;
+}
+
+.form_btn:hover{
+   background-color:#fff;
+   color: #000;
+   border:  1px solid blue;
+    
+}
+
+
+
+.form-bg{
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* Projects page Styles */
+.projects{
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-align: left;
+   
+}
+
+.projects-box{
+   
+    width: 70%;
+}
+
+.blue-box{
+    background-color: rgb(89, 89, 202);
+   width: 8px;
+   
+}
+
+
+.small-project-font{
+    font-size: 0.9rem;
+    color: rgb(89, 89, 202);
+    font-weight: bolder;
+}
+
+.role-title{
+  color: rgb(71, 67, 67);
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.project-page-text{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+/* experience font */
+.experience_font{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.job-position{
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+@media(max-width:980px){
+ body{
+background-image: url("/img/bg.jpg");
+background-repeat: repeat-x ;
+background-size: cover;
+background-position: 100% 100% ;
+}
+
+.hello_sec_margin{
+margin-top: 15px;
+}
+.box-small{
+   padding-bottom: 5px;
+}
+
+.btn-resume{
+padding: 7px;
+background-color: blue;
+color: white;
+border-radius: 15px;
+border: 0px;
+outline: none;
+font-size: 0.8rem;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+border: 1px solid transparent;
+white-space: nowrap;
+min-width: 100%;
+}
+
+
+
+
+
+}
+
+@media (min-width:980px){
+.bg-pink{
+background-image: url("/img/bg.jpg");
+ background-repeat: repeat-y ;
+background-size: cover;
+position: relative;
+
+}
+
+.bg-about{
+background-image: url("/img/bg.jpg");
+ background-repeat: repeat-y ;
+background-size: 40%;
+position: relative;
+
+}
+
+.form_btn{
+padding: 7px;
+background-color: blue;
+color: white;
+border-radius: 15px;
+width: 25%;
+border: 0px;
+outline: none;
+font-size: 1rem;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.5s ease-in-out; 
+border: 1px solid transparent;
+}
+
+
+li,a{
+  list-style: none;  
+  text-decoration: none;
+}
+a{color: #000;}
+
+
+.box{
+padding-bottom: 14px; 
+  
+}
+
+.skill-large{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.art-name{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.copy-right{
+    font-size: 0.8rem;
+}
+
+footer{
+    background-color: #fff;
+}
+
+.card-right-color{
+    background-color: #f4ece6;
+    box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 12px 21px -4px rgba(0,0,0,0.75);
+}
+
+.hello{
+    font-size: 6rem;
+     font-weight: bold;
+}
+
+.who_i_im{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+.project-manager{
+    font-weight: lighter;
+      letter-spacing: 0.4rem;
+      font-size: 1.5rem;
+}
+
+
+.btn-resume{
+padding: 7px;
+background-color: blue;
+color: white;
+border-radius: 15px;
+border: 0px;
+outline: none;
+font-size: 0.8rem;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+border: 1px solid transparent;
+white-space: nowrap;
+min-width: 30%;
+
+}
+
+.btn-project{
+border-radius: 15px;
+padding: 7px;
+border: 1px solid #000;
+width: 30%;
+color: #000;
+background-color: white;
+font-size: 1rem;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+}
+
+.btn-project:hover{
+    background-color: blue;
+    color: #fff;
+}
+.btn-resume:hover{
+   border: solid 1px blue;
+    color: #000;
+    background-color: #fff;
+}
+
+
+.large-project-font{
+  font-size: 1.3rem;
+    color: rgb(89, 89, 202);
+    font-weight: bolder;
+}
+
+.role-title{
+  color: rgb(71, 67, 67);
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+/* experience font */
+.experience_font{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+}
