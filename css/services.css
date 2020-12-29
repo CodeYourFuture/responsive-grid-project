@@ -1,26 +1,3 @@
-/* 
-
-**Headings:** Libre Baskeville 400  
-https://fonts.google.com/specimen/Libre+Baskerville  
-**Subheadings:** Libre Baskeville Italic 400  
-https://fonts.google.com/specimen/Libre+Baskerville  
-**Body:** Quicksand Light 300  
-https://fonts.google.com/specimen/Quicksand  
-
-font-family: 'Libre Baskerville', serif;
-font-family: 'Quicksand', sans-serif;
-
-
-Text colour: #2F2F2E  
-  
-Lime green: #E2F6CD secondary
-Light grey: #F2F2F1  neutral
-Light mint: #CFF4EC  primary
-Medium mint: #94D6C8  primary-dark
-Dark green: #4D7369     btn-hover-color  */
-/* Add your custom CSS here */
-
-
 :root {
     --primary: #CFF4EC;
     --primary-dark: #94D6C8;
@@ -81,7 +58,7 @@ a {
 
 .box-sizing {
     padding-top: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 /* NAV */
@@ -113,67 +90,18 @@ a {
     
 }
 
-/* HERO */
-.hero {
-    background-color: var(--primary);
-}
-
-
-
-/* ABOUT */
-
-.about-text {
-    background-color: var(--neutral);
-    padding-bottom: 35%;
-}
-
-.about>img {
-    margin-top: -50%;
-    height: auto;
-}
-
 /* THERAPY SECTION */
 
-.indiv-therapy {
+.box-bg-1 {
     background-color: var(--secondary);
 }
 
-.group-therapy {
+.box-bg-2 {
     background-color: var(--neutral);
 }
 
-.couples-therapy {
+.box-bg-3 {
     background-color: var(--primary);
-}
-
-/* ARTICLES */
-
-.article-heading {
-    font-style: italic;
-    font-size: 1.4em;
-    line-height: 1.7em;
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
-
-.article-section {
-    background-color: var(--neutral);
-}
-
-.article-carousel {
-    background-color: var(--white);
-    padding: 30px;
-    margin: 20px;
-}
-
-.article-btn {
-    background-color: var(--primary);
-    border: none;
-    margin-top: 30px;
-    height: 40px;
-}
-.article-btn:hover {
-    background-color: var(--btn-color);
 }
 
 /* CHAT ICON */
@@ -189,9 +117,8 @@ a {
 }
 
 .chat-icon-fixed-padding {
-    padding: 20px 40px;;
+    padding: 20px 40px;
 }
-
 /* FOOTER */
 
 .footer-section {
@@ -199,9 +126,6 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-    section {
-        margin-bottom: 50px;
-    }
 
     /* HEADER  */
     header {
@@ -229,37 +153,6 @@ a {
 
     .display-sm{
         display: none;
-    }
-
-    /* HERO */
-
-    section, article {
-        min-height: 500px;
-    }
-
-    .hero-text {
-        padding-top: 13em;;
-    }
-
-    .hero-md-img {
-        background-image: url(../img/erol-ahmed-aIYFR0vbADk-unsplash.jpg);
-        background-size: cover;
-        background-position-x: center;
-    }
-
-      /* ABOUT */
-
-      .about-text {
-        padding-bottom: 30%;
-    }
-    
-    .about>img {
-        margin-top: -35%;
-    }
-
-    /* ARTICLE */
-    .article-md {
-        background-color: var(--white);
     }
 
     /* CHAT ICON */
