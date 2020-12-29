@@ -1,3 +1,146 @@
-/* Add your custom CSS here */
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-/* Dont' forget to link this file to your HTML in the <head> */
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e6dacd;
+}
+
+/* Menu Bar */
+.navbar-light {
+  padding-bottom: 100px;
+}
+nav > div > div > a {
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 20px;
+}
+.role {
+  font-size: 14px;
+}
+
+.profile-card {
+  background-color: #f4ece6;
+  width: 80vw;
+  text-align: center;
+  position: relative;
+  margin-top: -100px;
+}
+.photo-wrapper img {
+  width: 65%;
+  margin: 25px auto;
+  border-radius: 50%;
+}
+.separator-line {
+  border-bottom: 3px solid blue;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 25px;
+  text-align: center;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+#footer-wrapper {
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+#body-wrapper {
+  width: 100%;
+}
+.contact {
+  font-size: 12px;
+}
+
+.contact > div:first-child,
+.social-media > a {
+  color: black;
+}
+.social-media {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto 0 auto;
+  padding: 5px;
+  background-color: white;
+}
+.social-media a {
+  text-decoration: none;
+  padding: 20px;
+}
+.social-media .fa {
+  color: black;
+  text-align: center;
+  font-size: 15px; /*this controls the font size*/
+}
+.footer-social-media {
+  margin: 0;
+  padding: 0;
+}
+
+/* Css for contact.html */
+/* ----------------------------- */
+
+form {
+  margin-bottom: 15px;
+}
+
+.form-heading {
+  margin: 50px 25px auto;
+  text-align: center;
+}
+.contact-form input {
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.contact-form input:focus {
+  outline: 1px solid royalblue;
+  border: none;
+}
+
+.contact-form {
+  background: white;
+}
+
+.form-btn:hover {
+  outline: 1px solid blue;
+  color: black;
+  background: white;
+}
+.btn-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* CSS for projects.html  */
+.projects-header,
+.contact-header,
+.resume-header {
+  background-color: white;
+  padding-bottom: 0;
+}
