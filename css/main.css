@@ -1,3 +1,29 @@
-/* Add your custom CSS here */
+/* Add your custom CSS here 
+ Don't forget to link this file to your HTML in the <head> */
 
-/* Dont' forget to link this file to your HTML in the <head> */
+* {
+    margin: 0;
+    border: 2px solid red;
+}
+
+body {
+    font-family: "Arial",Helvetica,sans-serif;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+/* .map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+} */
