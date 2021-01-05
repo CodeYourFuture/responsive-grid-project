@@ -1,8 +1,8 @@
 /* General CSS */
 
 body  {
-background: linear-gradient(to bottom, white 0%,white 30%,white 30%, #E6DACD 30%,#E6DACD 100%); 
-text-align:center;
+background-color: #E6DACD; 
+text-align:left;
 margin:0px;
 overflow-x: hidden;
 }
@@ -14,6 +14,7 @@ a:link {
 h1{
     font-weight:700;
     font-size:2.5em;
+    padding-top: 3em;
 }
 
 h3 {
@@ -68,12 +69,49 @@ header a{
 
 
 /* CSS for Profile Section */
+.jobposition{
+    font-weight:700;
+}
+.date{
+    color:#0150FD;
+    padding-top:3em;
+    font-weight:700;
+}
+
+.longtext{
+    
+    padding-top:2em;
+}
+.longtext2{
+    
+    padding-bottom:2.5em;
+}
+
+.bluesquare{
+    width:20px;
+    height:20px;
+}
+.bluesquare2{
+    width:10px;
+    height:10px;
+    margin:5px;
+}
+
+ul.bluelist{
+      list-style: none;
+
+}
+
+.wrapsquare{
+
+}
 
 .float {
-    background-color:#F4ECE6;
+    background-color: white;
     filter: drop-shadow(-10px 10px 3px lightgrey);
     max-width:80%;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .roundimage {
@@ -128,6 +166,12 @@ header a{
     padding: 20px 0px;
 }
 
+.bottomboxtitle{
+    padding-top:2em;
+}
+.lastsquare{
+    padding-bottom:3em;
+}
 
 /* CSS for Blurb */
 
@@ -171,12 +215,6 @@ footer{
 @media (min-width:768px){
 header{
     background-color: white;
-}
-body  {
-background: linear-gradient(to left, white 0%,white 70%,white 70%, #E6DACD 70%,#E6DACD 100%); 
-}
-.main {
-margin:100px 0px;
 }
 .buttonrow {
     display:none;

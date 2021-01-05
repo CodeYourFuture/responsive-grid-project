@@ -1,7 +1,7 @@
 /* General CSS */
 
 body  {
-background: linear-gradient(to bottom, white 0%,white 30%,white 30%, #E6DACD 30%,#E6DACD 100%); 
+background: #E6DACD; 
 text-align:center;
 margin:0px;
 overflow-x: hidden;
@@ -20,7 +20,6 @@ h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 1.5em;
-    padding-left:5px;
 }
 
 /* CSS for Top Navigation */
@@ -36,7 +35,10 @@ h3 {
     top: 6px;
     right: 6px;
 }
-
+.bluesquare{
+    width:20px;
+    height:20px;
+}
 
 .wrapsquare{
     display:flex;
@@ -67,13 +69,15 @@ header a{
 }
 
 
-/* CSS for Profile Section */
+
+/* CSS for Form Section */
+
 
 .float {
-    background-color:#F4ECE6;
+    background-color: white;
+    margin: 2% 10%;
     filter: drop-shadow(-10px 10px 3px lightgrey);
-    max-width:80%;
-    margin: 0 auto;
+    padding: 2%;
 }
 
 .roundimage {
@@ -84,13 +88,16 @@ header a{
 .line{
   height:2px;
   width: 20%;
-  background-color:#0150FD ;  
-  margin: 0 auto;
+  background-color:#0150FD ;
+  margin:0px 40%;
 }
 
-.buttonrow{
-    padding:20px;
+.whitebg{
+    background-color: white;
+    margin: 13px;
+    padding: 20px 0px;
 }
+
 
 .button1{
     background-color: #0150FD;
@@ -100,16 +107,31 @@ header a{
     border:solid #0150FD 2px;
     font-weight:600;
     font-size:1.3em;
-    margin:10px 0px;
+    margin:10px;
+} 
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid #0150FD;
+  height: 50px;
+  width:90%;
 }
 
-.button2{
-    border-radius: 20px;
-    padding: 3px 16px;
-    border:solid black 2px;
-    font-weight:600;
-    font-size:1.3em;
-    margin:10px 0px;
+.form{
+    margin:7px 0px;
+}
+
+#message {
+    
+  height: 100px;
+}
+
+/* CSS for Footer */
+
+
+footer{
+    background-color: white;
+    padding:30px 0px 0px 0px;
 }
 
 
@@ -122,32 +144,6 @@ header a{
     width:20px;
 }
 
-.whitebg{
-    background-color: white;
-    margin: 13px;
-    padding: 20px 0px;
-}
-
-
-/* CSS for Blurb */
-
-.blurbwrapper {
-    padding: 0px 0px 20px 0px;
-    margin: 20px 0px 0px 0px;
-}
-
-.blurb{
-    text-align:left;
-}
-
-
-/* CSS for Footer */
-
-
-footer{
-    background-color: white;
-    padding:30px 0px 0px 0px;
-}
 
 .lastline {
     
@@ -171,12 +167,6 @@ footer{
 @media (min-width:768px){
 header{
     background-color: white;
-}
-body  {
-background: linear-gradient(to left, white 0%,white 70%,white 70%, #E6DACD 70%,#E6DACD 100%); 
-}
-.main {
-margin:100px 0px;
 }
 .buttonrow {
     display:none;
@@ -215,5 +205,4 @@ header a{
   border:none;
   font-weight: 700;
 
-  }
   }
