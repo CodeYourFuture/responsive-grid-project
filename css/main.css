@@ -1,3 +1,209 @@
 /* Add your custom CSS here */
 
 /* Dont' forget to link this file to your HTML in the <head> */
+=======
+s
+
+/* General */
+body {
+  font-family: Quicksand Light 300;
+  font-weight: 300;
+  color: #2f2f2e;
+}
+
+.title-txt {
+  font-family: Libre Baskeville;
+  font-size: 65px;
+}
+.nor-txt {
+  font-size: 20px;
+  font-weight:300;
+}
+
+.mid-txt {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+} 
+
+.standard-btn {
+  background-color: #cff4ec;
+  border: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-family: Libre Baskeville;
+  font-size: 55px;
+ }
+ 
+
+/* head */
+.header{
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  min-height: 77px;
+  min-width: 100%;
+}
+
+.menu-icon{
+  padding-top: 25px;
+}
+
+.head-txt {
+  font-family: Libre Baskeville;
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* menu */
+.menu-container {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.menu-item {
+  text-decoration: none;
+  font-family: Quicksand Light 300;
+}
+nav a:hover {
+  color: #94d6c8;
+}
+
+.menu-container a {
+  display: none;
+  
+}
+
+/*intro*/
+.intro-container{
+  padding-top: 180px;
+}
+.intro-img {
+  width: 100%;
+}
+.no-padding {
+  padding-left: 0 !important;
+}
+ 
+.intro-txt {
+  font-family: Libre Baskeville;
+  font-weight: lighter;
+  font-size: 50px;
+  background-color: #cff4ec;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.intro-txt p {
+  font-size: 20px;
+}
+
+/*about*/
+.about-txt {
+  background-color: #f2f2f1;
+  font-weight: lighter;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 0x;
+  padding-bottom: 10px;
+}
+
+.about-subheading {
+  font-size: 25px;
+  font-family: Libre Baskeville;
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+.about-img {
+  background-color: #f2f2f1;
+  margin-top: 40px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+/*products*/
+.n1 {
+  background-color: #e2f6cd;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.n2 {
+  background-color: #f2f2f1;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.n3 {
+  background-color: #cff4ec;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.numb-title {
+  font-family: Libre Baskeville;
+  padding-top: 30px;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.service-btn {
+  background-color: #94d6c8;
+  border: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+/*article*/
+.article-container {
+  background-color: #f2f2f1;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.article-list {
+  background-color: white;
+}
+.article-container p {
+  font-size: 25px;
+}
+
+/*footer*/
+.footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 540px) {
+  .menu-icon {
+    display: none;
+  }
+
+  /*head*/
+  .menu-container a {
+    display:flex;
+    font-size: 15px;
+  }
