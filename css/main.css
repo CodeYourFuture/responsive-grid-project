@@ -1,3 +1,26 @@
 /* Add your custom CSS here */
 
 /* Dont' forget to link this file to your HTML in the <head> */
+
+
+.about-img{
+    position: relative;
+    top:-30vh;
+}
+
+.adjusted-height{
+    min-height: 90vh;
+}
+.bg-lightgreen{
+    background-color: rgb(153, 209, 153);
+}
+.bg-lightblue{
+    background: lightblue;
+}
+p{
+    font-size: calc(0.75rem + 0.75vw);
+}
+
+.transf{
+    transform: translateY(-700px);
+}
