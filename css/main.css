@@ -1,3 +1,103 @@
-/* Add your custom CSS here */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
-/* Dont' forget to link this file to your HTML in the <head> */
+/* {
+  border: 1px solid #008000;
+} */
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+
+img {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-menu:hover {
+  color: #7ec7c0;
+  background-color: #b2fef7;
+  transition: all 0.3s ease;
+}
+
+.appointment-box {
+  background-color: #b2fef7;
+}
+
+.appointment-box:hover {
+  background-color: rgb(228, 149, 120);
+  transition: all 0.5s ease;
+}
+
+.nav-item a:hover {
+  background-color: #b2fef7;
+  border-radius: 3px;
+  transition: all 0.4s ease;
+}
+
+.hero {
+  background-color: #b2fef7;
+}
+
+.therapy-box1 {
+  background-color: #dcedc8;
+}
+
+.therapy-box3 {
+  background-color: #b3e5fc;
+}
+
+.therapy div a {
+  font-size: 5rem;
+}
+
+.therapy-btn {
+  background-color: #b2fef7;
+}
+
+.articles p {
+  cursor: pointer;
+}
+
+.articles p:hover {
+  color: green;
+}
+
+.comment-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles-btn {
+  background-color: #b2fef7;
+}
+
+footer img {
+  width: 2rem;
+}
+
+@media (max-width: 768px) {
+  .social-media-icons {
+    text-align: center;
+  }
+
+  .articles-md-screen {
+    display: none;
+  }
+}
+
+/* About.css */
+
+.experience-container {
+  background-color: #cff4ec;
+}
+
+/* Contact.css */
+
+.contact-container {
+  background-color: #e2f6cd;
+}
