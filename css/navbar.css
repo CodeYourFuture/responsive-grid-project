@@ -1,0 +1,24 @@
+header div {
+  padding-left: 6%;
+  padding-right: 3%;
+}
+
+nav a {
+  color: black;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-nav {
+  background-color: white;
+  z-index: 1;
+  font-size: 1rem;
+}
+
+/* @media (min-width: 768px) {
+
+} */

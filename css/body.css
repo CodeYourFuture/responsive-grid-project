@@ -1,0 +1,43 @@
+/* Add your custom CSS here */
+
+/* Dont' forget to link this file to your HTML in the <head> */
+:root {
+  --text-colour: #000;
+  --dark-beige: #e6dacd;
+  --light-beige: #f4ece6;
+  --royal-blue: #0150fd;
+  --white: #fff;
+}
+
+body {
+  font-family: "Quicksand";
+
+  /* font-size: 90%; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+  font-size: 3em;
+}
+/* header {
+  height: 5rem;
+} */
+
+main {
+  position: relative;
+}
+
+/* footer {
+  background-color: white;
+} */
+/* 
+@media (min-width: 768px) {
+  header {
+    height: auto;
+  }
+} */

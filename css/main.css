@@ -1,3 +1,45 @@
-/* Add your custom CSS here */
+.main-content {
+  /* background-color: transparent; */
+  position: absolute;
+  top: 8rem;
+  left: 7%;
+  width: 93%;
+}
 
-/* Dont' forget to link this file to your HTML in the <head> */
+.main-background {
+  height: 1050px;
+}
+
+.main-background div:nth-child(1) {
+  background-color: white;
+  height: 50%;
+  width: 100%;
+}
+
+.main-background div:nth-child(2) {
+  background-color: #faefe9;
+  height: 50%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    margin-right: 0;
+    top: 14rem;
+    left: 10%;
+    width: 80%;
+  }
+
+  .main-background div:nth-child(1) {
+    background-color: #faefe9;
+    width: 46%;
+    height: 100%;
+  }
+
+  .main-background div:nth-child(2) {
+    background-color: white;
+    width: 54%;
+    height: 100%;
+  }
+}

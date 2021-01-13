@@ -1,0 +1,20 @@
+.content-img-div {
+  height: 200px;
+  width: 100%;
+}
+
+.content-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%; /* default value: image is centered*/
+  /* object-position: 0 0; positioned top left of the content box */
+}
+
+@media (min-width: 768px) {
+  .content-img-div {
+    /* height: 100%; */
+    width: 300px;
+    height: 400px;
+  }
+}
