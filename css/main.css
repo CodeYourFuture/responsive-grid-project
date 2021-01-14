@@ -1,3 +1,223 @@
-/* Add your custom CSS here */
+:root {
+  --bold-font: "Poppins", sans-serif;
+  --bg-color: #e6dace;
+  --blue: #0000ff;
+  --hero-bg: #f4ece6;
+}
 
-/* Dont' forget to link this file to your HTML in the <head> */
+body {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: var(--blue);
+}
+
+ul.navbar-nav li.nav-item a.nav-link.active {
+  color: var(--blue);
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: var(--bold-font);
+}
+
+.bold-text {
+  font-family: var(--bold-font);
+  text-align: center;
+}
+
+.rect {
+  width: 20px;
+  height: 20px;
+}
+
+.rect-small {
+  width: 10px;
+  height: 10px;
+}
+
+/* about me page */
+
+main {
+  position: relative;
+}
+
+.pinned-background {
+  background-color: #e6dacd;
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.profile {
+  background-color: var(--hero-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  box-shadow: rgba(122, 118, 114, 0.23) -11.31px 11.31px 17px;
+}
+
+.hero-container {
+  background-color: #f4ece6;
+  overflow: hidden;
+}
+
+.hero-img {
+  border-radius: 50%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text-greeting {
+  font-size: 4rem;
+}
+
+.hero-text-message {
+  font-size: 1.4rem;
+}
+
+hr.blue-line {
+  border-top: 1px solid var(--blue);
+  opacity: 1;
+  width: 100px;
+  margin: 2rem auto;
+}
+
+.resume-btn {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+}
+
+.resume-btn:hover {
+  background-color: inherit;
+  border: 2px solid var(--blue);
+  color: black;
+}
+
+.projects-btn:hover {
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+  color: white;
+}
+
+.hero-social-icons {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+/* resume page */
+
+.background-main {
+  background-color: var(--bg-color);
+}
+
+.container-width {
+  max-width: 800px;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.project-container {
+  min-height: 400px;
+}
+
+/* contact page */
+
+.form-container {
+  max-width: 600px;
+}
+
+input[type="text"],
+input[type="email"],
+.textarea {
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(14, 13, 13);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+.textarea:focus {
+  border-bottom: 2px solid var(--blue);
+  outline: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+.textarea:hover {
+  border-bottom: 2px solid var(--blue);
+  outline: none;
+}
+
+.button-filled {
+  background-color: var(--blue);
+  padding: 0.3rem 2rem;
+  border: 1px solid var(--blue);
+  border-radius: 30px;
+  color: white;
+}
+
+.button-filled:hover {
+  color: black;
+  background-color: inherit;
+}
+
+.button-outline {
+  background-color: inherit;
+  padding: 0.3rem 2rem;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: black;
+}
+
+.button-outline:hover {
+  color: white;
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+/* projects page */
+
+/* footer */
+.social-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+}
+
+footer h4 {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .pinned-background {
+    display: block;
+    width: 40%;
+    height: 100%;
+    top: 0;
+  }
+}
