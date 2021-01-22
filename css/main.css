@@ -1,3 +1,49 @@
 /* Add your custom CSS here */
 
-/* Dont' forget to link this file to your HTML in the <head> */
+.italic {
+  font-family: "Spectral", serif;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+h1,
+h2 {
+  font-family: "Spectral", serif;
+  font-size: 2.7rem;
+}
+
+.nav-button {
+  border: none;
+}
+.light-green {
+  background-color: #cff4ec;
+}
+.gray {
+  background-color: #f2f3f1;
+}
+.green {
+  background-color: #e2f7cd;
+}
+.second-green {
+  background-color: #94d6c8;
+}
+.copy-right {
+  font-size: 0.8rem;
+}
+.img-cover {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .order {
+    order: 2;
+  }
+  .pro-photo {
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  .test {
+    display: flex;
+    align-items: center;
+  }
+}
