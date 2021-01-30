@@ -1,0 +1,77 @@
+/* Add your custom CSS here */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0,0,0); 
+}
+
+.botton-class {
+    height: 35px;
+   border-radius : 40px;
+   
+}
+
+.horiz-rule{
+    color: #0150FD;
+    width: 20%;
+    height: 15px;
+}
+.botton-class: hover {
+    color: #FFF;
+    background: rgba(58, 133, 191, 0.75);
+    border: 2px solid rgba(58, 133, 191, 0.75);
+  }
+
+.img-prof {
+    border-radius: 50%;
+}
+a {
+    padding:5px;
+    ;
+}
+
+i {
+    color: black;
+}
+.hello-section {
+    margin-top: -100px;
+    padding-top: 120px;
+    background-color:  #E6DACD ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+.background-beige {
+    background-color:#F4ECE6;
+    height: 18.75rem;
+   
+}
+.social-class{
+ background-color: #fff;
+}
+.background {
+  background-color: #E6DACD; 
+  background-repeat: no-repeat;
+  background-size: 200px 300px;
+  border: 300px 400px;
+}
+/* INSTRUCTIONS
+### **DESIGN 2: Resume**
+https://www.wix.com/website-template/view/html/2622  
+
+### Fonts
+**Headings:** Poppins Semi-bold 600  
+https://fonts.google.com/specimen/Poppins  
+**Body:** Quicksand Light 300  
+https://fonts.google.com/specimen/Quicksand  
+
+### Colors
+Text colour: #000  
+  
+Dark beige: #E6DACD  
+Light beige: #F4ECE6  
+Royal blue: #0150FD  
+White: #FFF   */
+
+/* Dont' forget to link this file to your HTML in the <head> */
