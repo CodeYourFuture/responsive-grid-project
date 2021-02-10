@@ -1,0 +1,539 @@
+:root {
+  --headings: "Libre Baskerville", serif;
+  --text: "Quicksand", sans-serif;
+  --text-color: #2f2f2e;
+  --lime-green: #e2f6cd;
+  --light-grey: #f2f2f1;
+  --light-mint: #cff4ec;
+  --medium-mint: #94d6c8;
+  --dark-green: #4d7369;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+.cta {
+  background-color: var(--light-mint);
+  color: var(--text-color);
+  font-family: var(--text);
+  border: transparent;
+  border-radius: 0;
+  display: block;
+}
+
+.cta:hover {
+  background-color: var(--light-mint);
+  color: var(--text-color);
+  font-family: var(--text);
+  border: transparent;
+  border-radius: 0;
+}
+
+.cta:active {
+  background-color: var(--light-mint);
+  color: var(--text-color);
+  font-family: var(--text);
+  border: transparent;
+  border-radius: 0;
+}
+
+cta:visited {
+  background-color: var(--light-mint);
+  color: var(--text-color);
+  font-family: var(--text);
+  border: transparent;
+  border-radius: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger {
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 25px;
+  display: block;
+}
+
+.navbar {
+  text-align: center;
+  display: block;
+  padding: 0px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: var(--text-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+.open-sidenav {
+  height: 0%;
+  width: 0%;
+  position: fixed;
+  overflow-x: hidden;
+  transition: 0.2s;
+  top: 0px;
+  background-color: var(--light-grey);
+}
+
+.overlay {
+  margin-top: 20vh;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+}
+
+.close-div {
+  position: absolute;
+  font-size: 3rem;
+  right: 2rem;
+  top: 1rem;
+}
+
+.divider {
+  background: var(--text-color);
+  height: 0.1rem;
+  width: 10vw;
+  margin: 1rem;
+}
+
+.plant-aloe {
+  background-image: url(https://static.wixstatic.com/media/84770f_6ae94823ccef48a5bf0ac4650fe562fa~mv2_d_3000_2000_s_2.jpeg/v1/fit/w_418,h_279,al_c,q_80/file.jpeg);
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+}
+
+.headings {
+  font-family: var(--headings);
+  font-style: italic;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.title {
+  font-family: var(--headings);
+  font-weight: 600;
+  text-align: center;
+}
+
+.arrow {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.header-p {
+  font-weight: 300;
+  font-family: var(--text);
+  text-align: center;
+}
+
+.online {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--light-mint);
+}
+
+.title {
+  font-size: 2.3rem;
+  padding: 1rem;
+}
+
+.about {
+  height: 90vh;
+  background: var(--light-grey);
+  padding: 1rem;
+}
+
+.maria {
+  width: 90vw;
+  margin-top: -30vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20vh;
+}
+
+.therapy {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.individual {
+  background: var(--lime-green);
+}
+
+.group {
+  background: var(--light-grey);
+}
+
+.couples {
+  background: var(--light-mint);
+}
+
+.view {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+button a {
+  font-size: 1.2rem;
+}
+
+.therapy-pics {
+  width: 100%;
+  height: 25vh;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.7rem 0;
+}
+
+.card-footer-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-footer-elem img {
+  font-size: 0.7rem;
+}
+
+.card-main {
+  border: 1px solid darkgray;
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+.article-heading {
+  margin: 2rem 0;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
+}
+
+.card-carousel {
+  height: 60vh;
+}
+
+.card-header {
+  padding: 1.6rem 0;
+}
+
+.more-articles {
+  margin: 2rem 0;
+}
+
+.articles-container {
+  background-color: var(--medium-mint);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0 1rem 0;
+}
+
+.social-media-icon {
+  height: 2rem;
+  margin: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-p {
+  padding: 0 0 2.5rem 0;
+}
+
+/* Book an appointment page  CSS*/
+
+.all-therapy {
+  background-color: var(--light-grey);
+}
+
+.types-of-therapy {
+  height: 40vh;
+  width: 90vw;
+  margin: 2rem auto;
+  border: 1px solid darkgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.therapy-p {
+  font-size: 1.1rem;
+}
+
+.therapy-h {
+  font-size: 1.6rem;
+}
+
+.headings-therapy {
+  margin: 1rem 0;
+}
+
+/* Types therapy */
+
+.couple-heading {
+  padding: 5rem 0 3rem 0;
+  font-size: 2rem;
+}
+
+.book-now {
+  background-color: var(--light-grey);
+  margin-bottom: 2rem;
+}
+
+.therapy-title {
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-align: left;
+}
+
+.therapy-p {
+  text-align: center;
+  font-family: var(--text);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.therapy-info {
+  font-family: var(--text);
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+
+.footer-divider {
+  border: 1px solid var(--dark-green);
+}
+
+/* about page */
+
+.about {
+  background-color: var(--light-grey);
+  padding-bottom: 49rem;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-heading {
+  padding: 1rem 0 0 1rem;
+}
+
+.about-p {
+  padding-bottom: 3rem;
+}
+
+.experience {
+  background-color: var(--light-mint);
+}
+
+.about-maria {
+  margin: auto;
+}
+
+.header-exp {
+  text-align: left;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+.work-exp {
+  padding: 1rem 0;
+}
+
+.last-exp {
+  padding-bottom: 4rem;
+}
+
+/* Services Page */
+
+.lime-g {
+  background-color: var(--lime-green);
+}
+
+.light-g {
+  background-color: var(--light-grey);
+}
+
+.light-m {
+  background-color: var(--light-mint);
+}
+
+.online-head {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.online-heading {
+  padding-top: 3rem;
+  font-weight: 300;
+}
+
+.online-p {
+  letter-spacing: 0.1rem;
+  padding-bottom: 3rem;
+}
+
+/* blog webpage */
+
+.blog-articles {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-img {
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+}
+
+.first-img {
+  background-image: url(https://static.wixstatic.com/media/84770f_6ae94823ccef48a5bf0ac4650fe562fa~mv2_d_3000_2000_s_2.jpeg/v1/fit/w_418,h_279,al_c,q_80/file.jpeg);
+}
+
+.second-img {
+  background-image: url(https://static.wixstatic.com/media/03f22a3cb4d543b9b7ffcaae2f53a15f.jpg/v1/fit/w_418,h_279,al_c,q_80/file.jpg);
+}
+
+.third-img {
+  background-image: url(https://static.wixstatic.com/media/40c2397700984377a8d5a841d6b818ef.jpg/v1/fit/w_418,h_262,al_c,q_80/file.jpg);
+}
+
+.fourth-img {
+  background-image: url(https://static.wixstatic.com/media/7a9d48d5a156481da91fa3f74432133d.jpg/v1/fit/w_418,h_264,al_c,q_80/file.jpg);
+}
+
+.fifth-img {
+  background-image: url(https://static.wixstatic.com/media/4a0f937437b84a25a12e219fd8a576c7.jpg/v1/fit/w_418,h_279,al_c,q_80/file.jpg);
+}
+
+.sixth-img {
+  background-image: url(https://static.wixstatic.com/media/2edcc15bd8774c919bee28b4f4053f2e.jpg/v1/fit/w_418,h_279,al_c,q_80/file.jpg);
+}
+
+.user-pic {
+  border-radius: 50%;
+  height: 2.4rem;
+  background-color: darkgray;
+}
+
+.crown {
+  height: 0.8rem;
+}
+
+.dialog-icon {
+  height: 1rem;
+}
+
+.heart-icon {
+  height: 1rem;
+}
+
+.interact-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.hor-line {
+  margin-bottom: 2rem;
+}
+
+.article-description {
+  font-size: 1.2rem;
+}
+
+.info-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* Contact page */
+
+.contact-page {
+  background-color: var(--lime-green);
+}
+
+.contact-p {
+  font-size: 1.2rem;
+}
+
+input {
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+textarea {
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.contact-btn {
+  margin: 1rem 0 2rem 0;
+  height: 3rem;
+  font-weight: 700;
+  font-family: var(--text);
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#map {
+  height: 50vh;
+  width: 100%;
+}
+
+.contact-head {
+  padding: 4rem 0 1rem 0;
+}
+
+.contact-title {
+  padding-bottom: 2rem;
+}
